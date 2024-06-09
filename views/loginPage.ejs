@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>
+             LOGIN FORM
+        </title>
+        <style>
+            table{
+                box-shadow: 0px 7px rgb(113, 105, 105);
+                background-color: rgba(211, 211, 211, 0.358);
+                border-style: solid;
+                border-color: whitesmoke;
+            }
+            button{
+                width:250px;
+                height: 30px;
+            }
+            label{
+                margin: width 1000px;
+            }
+    
+            
+    
+                /* unvisited link */
+                a:link {
+                    color: rgb(25, 0, 255);
+                    
+                    
+    
+                    background-color: #6ff436;
+                    padding: 0px 0px;
+                    text-align: center;
+                    display: inline-block;
+                }
+    
+                
+                body{
+                background-image: url('https://www.freepptbackgrounds.net/wp-content/uploads/2013/11/Sky-Abstract-PPT-Backgrounds.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+
+           }
+    
+                /* mouse over link */
+                a:hover {
+                
+                
+                background-color: rgb(240, 243, 67);
+                }
+    
+                /* selected link */
+                a:active {
+                color: blue;
+                
+                background-color: hotpink;
+                }
+      
+    
+    
+        </style>
+    
+    </head>
+    <body>
+        <br><br><br><br><br><br><br><br>
+        
+        <form action="/loginSubmit" method="GET">
+            <table align="center" cellspacing="10" cellpadding="6"  bgcolor="white" height="350" width="350">
+                <tr>
+                    <th  align="center" colspan="2"><h1> Log in</h1></th>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2"> 
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" id="email" placeholder="Enter Email" name="email" required>
+                        
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="center" colspan="2">
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" id="password" placeholder="Enter Password" name="password" required>  
+
+                    </td>
+                    
+                </tr>
+                <tr colspan="2">
+                    <td align="center" colspan="2"> 
+                        <input type="submit" style="background-color:blue ; color :white ;" width="100">
+                       
+                     
+                    </td>
+                </tr>
+                <tr colspan="2">
+                    <td align="left">
+                        
+                        <input type="checkbox" id="remem" name="remem">
+                        <label for="remem">remember me</label>
+                    </td>
+                    <td>
+                        <a href="http://localhost:3000/forgetPassword">
+                        Forgot Password ?</a>
+                    </td>
+                </tr>
+             
+
+            
+            
+        </table>
+        
+    </form>
+
+
+    </body>
+</html>

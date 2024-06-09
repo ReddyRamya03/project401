@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <style>
+            table{
+                box-shadow: 0px 7px rgb(113, 105, 105);
+                background-color: rgba(211, 211, 211, 0.358);
+                border-style: solid;
+                border-color: whitesmoke;
+                
+            }
+           
+            label{
+                margin: width 1000px;
+            }
+    
+            body{
+                background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6Nz3sjRTFvj1kJcZDgEEt0g6tr0ABc-g0rrotySElKdBPLJqX');
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+
+           }
+      
+    
+    
+        </style>
+        
+
+    
+    </head>
+
+    <body>
+        <br><br><br><br><br><br><br><br>
+       
+
+
+<form action="/signupsubmit" method="GET">
+    <center>
+    <table align="center" cellspacing="10" cellpadding="6"  bgcolor="white" height="200" width="500">
+        <tr>
+            <th  align="center" colspan="2"><h1> sign up form</h1></th>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2"> 
+                <label for="name"><b>Name</b></label>
+                <input type="text" id="name" placeholder="Enter full name" name="full_name" required>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"> 
+                <label for="email"><b>Email</b></label>
+                <input type="text" id="email" placeholder="Enter Email" name="email" required>
+            </td>
+        </tr>
+        
+        <tr>
+            <td align="center" colspan="2">
+                <label for="password"><b>Password</b></label>
+                <input type="password" id="password" placeholder="Enter Password" name="password" required>  
+            </td>
+            
+        </tr>
+        <tr colspan="2">
+            <td align="center" colspan="2"> 
+                <label for="repeatpassword"><b>Repeat Password</b></label>
+                <input type="password" id="repeatpassword" placeholder="Repeat Password" name="repeatpassword">
+             
+            </td>
+        </tr>
+        <tr colspan="2">
+            <td align="center">
+
+                <p>By creating an account you agree to our <a href="#"
+                    style="color:dodgerblue">Terms & Privacy</a><p>
+            </td>
+          
+        </tr>
+
+        <tr>
+            <td align="center">
+                <button type="button" class="cancel"  style="background-color:rgb(236, 13, 13) ; color : white ;" width="100">Cancel</button>
+            </td>
+        </tr>
+        <tr colspan="0">
+            <td align="center" colspan="2">
+                <input style="background-color:blue ; color : white" width="100" type="submit">
+            </td>
+        </tr>
+</table></center>
+
+</form>
+    </body>
+</html>
